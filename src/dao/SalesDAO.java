@@ -1,12 +1,12 @@
 package dao;
 
 import db.DBConnection;
-import model.CartItem;
-import model.Sale;
 import java.math.BigDecimal;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import model.CartItem;
+import model.Sale;
 
 public class SalesDAO {
 
