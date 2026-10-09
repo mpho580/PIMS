@@ -24,7 +24,7 @@ public class UITheme {
 
     public static JButton primaryButton(String text) {
         JButton b = new JButton(text);
-        styleButton(b, PRIMARY, Color.WHITE);
+        styleButton(b, PRIMARY, PRIMARY_DARK);
         return b;
     }
 
