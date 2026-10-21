@@ -32,7 +32,7 @@ public class LoginFrame extends JFrame {
     private JPanel buildHeader() {
         JPanel header = new JPanel();
         header.setOpaque(false);
-        header.setBorder(new EmptyBorder(30, 20, 10, 20));
+        header.setBorder(new EmptyBorder(30, 30, 20, 20));
         header.setLayout(new BoxLayout(header, BoxLayout.Y_AXIS));
 
         JLabel logo = new JLabel("HealthFirst Pharmacy");

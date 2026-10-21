@@ -4,7 +4,6 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
-/** Central place for colours/fonts so every screen looks consistent. */
 public class UITheme {
     public static final Color PRIMARY      = new Color(0x1E7A5F);   // pharmacy green
     public static final Color PRIMARY_DARK = new Color(0x145C46);
