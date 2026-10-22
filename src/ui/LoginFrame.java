@@ -78,6 +78,33 @@ public class LoginFrame extends JFrame {
 
         gc.gridy++;
         JButton loginBtn = UITheme.primaryButton("Login");
+        loginBtn.setFont(new Font("Segoe UI", Font.BOLD, 14));
+        loginBtn.setForeground(Color.WHITE);
+        loginBtn.setBackground(UITheme.PRIMARY);
+        loginBtn.setOpaque(true);
+        loginBtn.setContentAreaFilled(true);
+        loginBtn.setFocusPainted(false);
+        loginBtn.setBorderPainted(false);
+        loginBtn.setBorder(
+            BorderFactory.createEmptyBorder(12, 25, 12, 25)
+        );
+        loginBtn.setCursor(
+            new Cursor(Cursor.HAND_CURSOR)
+        );
+
+        loginBtn.addMouseListener(
+            new java.awt.event.MouseAdapter() {
+                @Override
+                public void mouseEntered(java.awt.event.MouseEvent e) {
+                    loginBtn.setBackground(new Color(20, 95, 75));
+                }
+
+                @Override
+                public void mouseExited(java.awt.event.MouseEvent e) {
+                    loginBtn.setBackground(UITheme.PRIMARY);
+                }
+            }
+        );
         loginBtn.addActionListener(this::attemptLogin);
         card.add(loginBtn, gc);
         getRootPane().setDefaultButton(loginBtn);
