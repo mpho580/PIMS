@@ -41,9 +41,7 @@ public class ReportsPanel extends JPanel {
         add(subTabs, BorderLayout.CENTER);
     }
 
-    // ---------------------------------------------------------------
-    // 1. SALES REPORT - transactions between two dates
-    // ---------------------------------------------------------------
+  
     private JPanel buildSalesReportTab() {
         JPanel panel = new JPanel(new BorderLayout(8, 8));
         panel.setBackground(UITheme.BG);
@@ -94,9 +92,6 @@ public class ReportsPanel extends JPanel {
         return panel;
     }
 
-    // ---------------------------------------------------------------
-    // 2. ITEM-WISE SALES REPORT
-    // ---------------------------------------------------------------
     private JPanel buildItemWiseTab() {
         JPanel panel = new JPanel(new BorderLayout(8, 8));
         panel.setBackground(UITheme.BG);
@@ -141,9 +136,6 @@ public class ReportsPanel extends JPanel {
         return panel;
     }
 
-    // ---------------------------------------------------------------
-    // 3. LOW STOCK REPORT - quantity <= reorder level
-    // ---------------------------------------------------------------
     private JPanel buildLowStockTab() {
         JPanel panel = new JPanel(new BorderLayout(8, 8));
         panel.setBackground(UITheme.BG);
@@ -182,9 +174,7 @@ public class ReportsPanel extends JPanel {
         return panel;
     }
 
-    // ---------------------------------------------------------------
-    // 4. EXPIRY REPORT - medicines expiring within the next N days
-    // ---------------------------------------------------------------
+ 
     private JPanel buildExpiryTab() {
         JPanel panel = new JPanel(new BorderLayout(8, 8));
         panel.setBackground(UITheme.BG);
