@@ -29,7 +29,7 @@ public class AdminDashboard extends JFrame {
     private JPanel buildTopBar() {
         JPanel bar = new JPanel(new BorderLayout());
         bar.setBackground(UITheme.PRIMARY);
-        bar.setBorder(new EmptyBorder(14, 20, 14, 20));
+        bar.setBorder(new EmptyBorder(20, 40, 20, 0));
 
         JLabel title = new JLabel("HealthFirst Pharmacy \u2014 Admin Dashboard");
         title.setFont(UITheme.FONT_TITLE);
