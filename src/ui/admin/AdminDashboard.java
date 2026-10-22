@@ -42,9 +42,27 @@ public class AdminDashboard extends JFrame {
         who.setForeground(Color.WHITE);
         who.setFont(UITheme.FONT_LABEL);
         JButton logout = UITheme.flatButton("Logout");
-        logout.setBackground(UITheme.PRIMARY);
-        logout.setForeground(Color.WHITE);
-        logout.setBorder(BorderFactory.createLineBorder(Color.WHITE, 1));
+        logout.setFont(new Font("Segoe UI", Font.BOLD, 13));
+        logout.setForeground(UITheme.PRIMARY);
+        logout.setBackground(Color.WHITE);
+
+        logout.setOpaque(true);
+        logout.setBorder(BorderFactory.createEmptyBorder(9, 20, 9, 20));
+        logout.setFocusPainted(false);
+        logout.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
+        // Hover effect
+        logout.addMouseListener(new java.awt.event.MouseAdapter() {
+            @Override
+            public void mouseEntered(java.awt.event.MouseEvent e) {
+                logout.setBackground(UITheme.ACCENT);
+            }
+
+            @Override
+            public void mouseExited(java.awt.event.MouseEvent e) {
+                logout.setBackground(Color.WHITE);
+            }
+        });
         logout.addActionListener(e -> {
             dispose();
             new LoginFrame().setVisible(true);
