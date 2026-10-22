@@ -83,7 +83,7 @@ public class ManageUsersPanel extends JPanel {
         JButton addBtn = UITheme.primaryButton("Add New User");
         JButton updateBtn = UITheme.flatButton("Update Selected");
         JButton resetPwBtn = UITheme.flatButton("Reset Password");
-        JButton deleteBtn = UITheme.dangerButton("Delete / Deactivate");
+        JButton deleteBtn = UITheme.primaryButton("Delete / Deactivate");
         JButton clearBtn = UITheme.flatButton("Clear Form");
 
         addBtn.addActionListener(e -> handleAdd());

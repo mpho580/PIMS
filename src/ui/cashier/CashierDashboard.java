@@ -178,7 +178,7 @@ public class CashierDashboard extends JFrame {
 
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.LEFT, 8, 4));
         buttons.setOpaque(false);
-        JButton removeBtn = UITheme.dangerButton("Remove Selected");
+        JButton removeBtn = UITheme.primaryButton("Remove Selected");
         JButton clearBtn = UITheme.flatButton("Clear Cart");
         JButton checkoutBtn = UITheme.primaryButton("Checkout");
         checkoutBtn.setFont(new Font("Segoe UI", Font.BOLD, 15));

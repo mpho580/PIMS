@@ -26,13 +26,7 @@ public class UITheme {
         styleButton(b, PRIMARY, PRIMARY_DARK);
         return b;
     }
-
-    public static JButton dangerButton(String text) {
-        JButton b = new JButton(text);
-        styleButton(b, DANGER, Color.WHITE);
-        return b;
-    }
-
+    
     public static JButton flatButton(String text) {
         JButton b = new JButton(text);
         b.setFocusPainted(false);
