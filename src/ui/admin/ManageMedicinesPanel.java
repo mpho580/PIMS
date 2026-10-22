@@ -122,7 +122,7 @@ public class ManageMedicinesPanel extends JPanel {
         buttons.setOpaque(false);
         JButton addBtn = UITheme.primaryButton("Add New");
         JButton updateBtn = UITheme.flatButton("Update Selected");
-        JButton deleteBtn = UITheme.dangerButton("Delete Selected");
+        JButton deleteBtn = UITheme.primaryButton("Delete Selected");
         JButton clearBtn = UITheme.flatButton("Clear Form");
 
         addBtn.addActionListener(e -> handleAdd());
