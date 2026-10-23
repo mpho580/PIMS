@@ -1,0 +1,16 @@
+        HealthFirst Pharmacy
+      Official Sales Receipt
+----------------------------------------
+Sale ID   : 19
+Date/Time : 2026-10-22 19:28:03
+Cashier   : Mpho Cashier
+----------------------------------------
+Item                Qty    Total
+----------------------------------------
+Amlodipine 5mg        2   190.00
+Cough Syrup 100ml     2   130.00
+----------------------------------------
+TOTAL:                  R 320.00
+----------------------------------------
+     Thank you for shopping with us!
+      Get well soon. Come again.
