@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/pims/PIMS.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/LoginFrame.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/UITheme.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/admin/AdminDashboard.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/admin/ReportsPanel.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/admin/ManageUsersPanel.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/db/DBConnection.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/admin/ManageSuppliersPanel.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/admin/ManageMedicinesPanel.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/dao/UserDAO.java</file>
+            <file>file:/C:/Users/Mphok/OneDrive/Pictures/Documents/PIMS/src/ui/cashier/CashierDashboard.java</file>
+        </group>
+    </open-files>
+</project-private>

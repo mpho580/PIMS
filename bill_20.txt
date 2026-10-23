@@ -1,0 +1,16 @@
+        HealthFirst Pharmacy
+      Official Sales Receipt
+----------------------------------------
+Sale ID   : 20
+Date/Time : 2026-10-23 02:15:22
+Cashier   : Mpho Cashier
+----------------------------------------
+Item                Qty    Total
+----------------------------------------
+Amlodipine 5mg        3   285.00
+Metformin 500mg       3   234.75
+----------------------------------------
+TOTAL:                  R 519.75
+----------------------------------------
+     Thank you for shopping with us!
+      Get well soon. Come again.
